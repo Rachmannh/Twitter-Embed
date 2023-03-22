@@ -1,0 +1,36 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+:root {
+  --bg-color: #ecf8ff;
+  --main-font: "Source Sans Pro", sans-serif;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+}
+
+.user_avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.hashtag {
+  margin: 0 5px;
+  color: rgba(29, 161, 242, 1);
+}
